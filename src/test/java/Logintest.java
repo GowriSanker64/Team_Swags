@@ -8,12 +8,12 @@ public static void main(String[] args) {
         String password = config.getProperty("password");
 
 
-        System.out.println("URL: " + url);
+        // System.out.println("URL: " + url);
         System.out.println("Username: " + username);
         System.out.println("Password: " + password);
 
-        config.setProperty(username, "Ajith@123");
-        System.out.println(config.getProperty(username));
+        // config.setProperty(username, "Ajith@123");
+        // System.out.println(config.getProperty(username));
     }
 
     
